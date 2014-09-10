@@ -40,6 +40,8 @@
 	background-color: pink;
 	border-radius: 9px;
 	color: white;
+	text-decoration: none;
+	display: inline-block;
 }
 
 .b1 {
@@ -47,9 +49,7 @@
 	padding-right: 60px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	text-decoration: none;
 	font-size: 30px;
-	display: inline-block;
 }
 
 .b2 {
@@ -57,9 +57,7 @@
 	padding-right: 30px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	text-decoration: none;
 	font-size: 15px;
-	display: inline-block;
 }
 
 .b3 {
@@ -67,10 +65,100 @@
 	padding-right: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	text-decoration: none;
 	font-size: 15px;
-	display: inline-block;
 }
 
+.b4{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
 
+.buttons1 input{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	background-color: pink;
+	border-radius: 9px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	border-style: none;
+}
 
+.horizbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.horizbar li {
+	float: left;
+}
+
+.horizbar a {
+	display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: pink;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.firstanchor {
+	border-radius: 5px 0px 0px 5px;
+}
+
+.lastanchor {
+	border-radius: 0px 5px 5px 0px;
+}
+
+.pagination li{
+	float: left;
+	margin-left: 10px;
+}
+
+.pagination *{
+	display: block;
+    width: 20px;
+    text-align: center;
+    padding: 8px;
+    color: pink;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.pagination span{
+	color:#808080;
+	border-bottom-style: solid;
+	
+}
+
+.pagination a{
+	border-bottom-style: solid;
+
+}
+
+.pagends a{
+	border-bottom-style: none;
+}
+
+.avatar {
+	float: left;
+
+}
+
+.avcomment {
+	overflow: hidden;
+}
+
+.stream {
+	clear: both;
+}

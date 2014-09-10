@@ -110,11 +110,11 @@
 
 	    		<p class="instruction-text">Should work with both &lt;a&gt;, &lt;button&gt;, and &lt;submit&gt; elements.</p>
 					<div class="instruction-answer">
-			    	<!-- Edit here -->
-			    	<a href="#">Learn More</a>
-			    	<input type="button" href="#" value="Accept">
-			    	<input type="submit" href="#" value="Submit">
-				    <!-- End editable area -->
+				    	<div class="buttons1">
+					    	<a class="b4" href="#">Learn More</a>
+					    	<input class="b5" type="button" href="#" value="Accept">
+					    	<input class="b6" type="submit" href="#" value="Submit">
+					    </div>
 			    </div>
 			  </li>
 
@@ -124,13 +124,13 @@
 	    		<p class="instruction-text">Create a navigation menu with links that are highlighted on hover.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<nav>
+			    	<nav class="horizbar">
 			    		<ul>
-			    			<li><a href="#">Home</a></li>
+			    			<li><a class="firstanchor" href="#">Home</a></li>
 			    			<li><a href="#">Products</a></li>
 			    			<li><a href="#">About</a></li>
 			    			<li><a href="#">News</a></li>
-			    			<li><a href="#">Contact</a></li>
+			    			<li><a class="lastanchor" href="#">Contact</a></li>
 			    		</ul>
 			    	</nav>
 				    <!-- End editable area -->
@@ -143,8 +143,8 @@
 	    		<p class="instruction-text">Style a pagination control for navigating through pages of search results.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<ol>
-			    		<li><a href="#">prev</a></li>
+			    	<ol class="pagination">
+			    		<li class="pagends"><a href="#">prev</a></li>
 			    		<li><a href="#">5</a></li>
 			    		<li><a href="#">6</a></li>
 			    		<li><a href="#">7</a></li>
@@ -152,7 +152,7 @@
 			    		<li><a href="#">9</a></li>
 			    		<li><a href="#">10</a></li>
 			    		<li><a href="#">11</a></li>
-			    		<li><a href="#">next</a></li>
+			    		<li class="pagends"><a href="#">next</a></li>
 			    	</ol>
 				    <!-- End editable area -->
 			    </div>
@@ -164,39 +164,39 @@
 	    		<p class="instruction-text">Style a stream of user comments.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-				    <div>
-				    	<div>
+				    <div class="stream">
+				    	<div class="avatar">
 					    	<img src="http://gravatar.com/avatar/0?d=identicon">
 					    </div>
-				    	<div>
+				    	<div class="avcomment">
 				    		<strong>@metaraine</strong>
 					    	<time>Thursday, June 27, 2013, 4:15pm</time>
 					    	<p>Wow, that was an amazing article.</p>
 					    </div>
 					  </div>
 
-				    <div>
-				    	<div>
+				    <div class="stream">
+				    	<div class="avatar">
 					    	<img src="http://gravatar.com/avatar/1?d=identicon">
 					    </div>
-				    	<div>
+				    	<div class="avcomment">
 				    		<strong>@seandaken</strong>
 					    	<time>Friday, June 28, 2013, 11:02</time>
 					    	<p>I learned 100 new things.</p>
 					    </div>
 					  </div>
 
-				    <div>
-				    	<div>
+				    <div class="stream">
+				    	<div class="avatar">
 					    	<img src="http://gravatar.com/avatar/0?d=identicon">
 					    </div>
-				    	<div>
+				    	<div class="avcomment">
 				    		<strong>@metaraine</strong>
 					    	<time>2 hours ago</time>
 					    	<p>How about we have the RefactorU student climb Bear Peak each morning before class?</p>
 
-						    <div>
-						    	<div>
+						    <div class="stream">
+						    	<div class="avatar">
 							    	<img src="http://gravatar.com/avatar/1?d=identicon&s=60">
 							    </div>
 						    	<div>
@@ -206,11 +206,11 @@
 							    </div>
 							  </div>
 
-						    <div>
-						    	<div>
+						    <div class="stream">
+						    	<div class="avatar">
 							    	<img src="http://gravatar.com/avatar/2?d=identicon&s=60">
 							    </div>
-						    	<div>
+						    	<div class="avcomment">
 						    		<strong>@nullempire</strong>
 							    	<time>just now</time>
 							    	<p>No!</p>
