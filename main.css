@@ -162,3 +162,40 @@
 .stream {
 	clear: both;
 }
+
+.tabbing li{
+	/*float: left;*/
+	margin-left: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	list-style: none;
+	/*border-style: solid;*/
+	/*border-color: lavender;*/
+	/*border-width: 2px;*/
+	border: 2px solid lavender;
+	border-radius: 5px;
+	margin-bottom: -4px;
+	display: inline-block;
+}
+
+.tabbing ul{
+	padding-left: 10px;
+	
+}
+
+.tabbing a{
+	text-decoration: none;
+}
+
+.tabbing .activetab {
+	border-bottom: 4px white solid;
+}
+
+.tabpara {
+	border-style:solid;
+	border-color: lavender;
+	border-width: 2px;
+	border-radius: 5px;
+	padding-top: 2%;
+}
+
